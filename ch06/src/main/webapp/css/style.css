@@ -1,0 +1,11 @@
+@charset "UTF-8";
+		h1{ padding:10px;
+		background-color: #222;
+		color: #fff;
+		font-size:1.4em;
+		display:inline-block;
+	  }
+	ul{ list-style: none;
+		color: blue;
+		font-size: 1.2em;
+		line-height:1.5em; }

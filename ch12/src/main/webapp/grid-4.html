@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>CSS grid layout</title>
+<style>
+#wrapper{width:700px; grid-gap:20px 30px;
+		 display: grid; grid-template-columns: repeat(3, 1fr);
+		 grid-template-rows:repaet(3, 100px);}
+.items{padding: 10px; background-color: #eee;}
+.items:nth-child(even){background-color: #bbb;}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div class="items">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat placerat ex, sit amet sodales orci.</div> 
+<div class="items">Curabitur sit amet risus sed velit condimentum semper sed id felis. Sed interdum sit amet lacus et egestas.</div> 
+<div class="items">Morbi metus tortor, finibus rutrum feugiat vulputate, ullamcorper in lectus. Aliquam maximus sodales urna non interdum. </div> 
+<div class="items">Sed sit amet justo tempor, sagittis est non, faucibus magna. Aenean enim augue, eleifend eu lorem at, euismod dignissim nunc.</div> 
+<div class="items">Ut aliquet, justo vitae porta tincidunt, mi mi volutpat turpis, ut finibus ipsum tellus sed eros.</div>
+</body>
+</html>

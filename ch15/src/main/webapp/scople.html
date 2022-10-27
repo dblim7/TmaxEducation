@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8">
+<title>변수 적용 범위(scopes)</title>
+</head>
+<body>
+<script>
+function addNumber(a, b){
+	var sum = a+b; /* 지역변수 >> var 변수명*/
+	times_10 = sum*10; /* 전역변수 >> 변수명*/
+	if(a!=0 && b!=0){
+		let result = a*b;
+	} return sum
+} var add=addNumber(10, 20);
+document.write("전역변수 time_10 :"+ times_10 + "<br>")
+</script>
+</body>
+</html>
